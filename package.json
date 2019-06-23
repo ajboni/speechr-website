@@ -1,0 +1,36 @@
+{
+  "name": "speechr",
+  "version": "0.1.1",
+  "private": true,
+  "homepage": "https://speechr.aboni.dev",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "install": "^0.12.2",
+    "js-yaml": "^3.12.0",
+    "react": "^16.8.6",
+    "react-animated-slider": "^1.1.4",
+    "react-bootstrap": "^1.0.0-beta.6",
+    "react-dom": "^16.8.6",
+    "react-responsive-carousel": "^3.1.47",
+    "react-scripts": "2.1.1",
+    "react-scrollable-anchor": "^0.6.1",
+    "reactstrap": "^7.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.83.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

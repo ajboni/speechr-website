@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.menu-margin {
+  height: 55px;
+}
+
+.h10 {
+  height: 10px;               
+}
+
+.social-icon {
+  /* padding-left: 0px !important;
+  padding-right: 0px !important; */
+}
+.navbar { 
+  height: 60px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.download-section {
+  min-height: calc(100vh - 40px);
+  display: flex;
+
+align-items: center;
+}
+
+.about-us-section {
+  min-height: calc(100vh - 40px);
+  padding: 0px !important;
+  display: flex;
+
+align-items: center;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* .download-container {
+  height: 100vh;
+} */
+
+.slide-caption {
+  background: rgba(0, 0, 0, 0.794);
+  position: absolute !important;
+  width: 100vw;
+  left: 0 !important;
+  bottom: 50px !important;
+  padding: 20px 40px 40px 40px !important;
+}
+
+.slide-caption p {
+}
+
+.slide-caption h3 {
+}
+
+.slide-item {  
+  height: 100vh;
+}
+
+.footer {
+  height: 60px;
+  background: #343A40;
+  color: #fcfcfa;
+}
+.hr-text {
+  line-height: 1em;
+  position: relative;
+  outline: 0;
+  border: 0;
+  color: black;
+  text-align: center;
+  height: 1.5em;
+  opacity: .5;
+}
+
+.hr-text::before {
+  content: '';
+  background: linear-gradient(to right, transparent, #818078, transparent);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+.hr-text::after{
+  content: attr(data-content);
+  position: relative;
+  display: inline-block;
+  color: black;
+
+  padding: 0 .5em;
+  line-height: 1.5em;
+  color: #818078;
+  background-color: #fcfcfa;
+}
+
+.slide-img {      
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat left left scroll;
+    background-size: cover; 
+    background-color: #282c34;
+    background-origin: bor
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+}
+
+.slider-container {
+  height: 100%;
+  width: 100%;
+  background: red;
+    border: 5px solid white;    
+}
+
+.carousel-control-next, .carousel-control-prev {
+  z-index: 100 !important;
+}
+
+.feature {
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+.slide-caption {
+  padding: 15px !important;
+}
+
+  .slide-caption p {
+    font-size: 16px
+  }
+
+  .slide-caption h3 {
+    font-size: 22px
+  }
+  .feature {
+    font-size: 14px;
+
+  }
+  .navbar i {
+    margin: 0 !important;
+  }
+
+  .navbar, .navbar-brand {
+    padding: 4px !important;
+  }
+  .nav-link {
+    padding: 4px !important;
+  }
+  .navbar {
+    font-size: small;
+  }
+  .navbar-brand  {
+    display: none !important;
+  }
+
+  .slide-img {      
+    background: no-repeat left right scroll;
+  }
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  .slide-caption {
+    padding: 10px 20px;
+  }
+
+  .slide-caption p {
+    font-size: 25px;
+    font-weight: 100;
+  }
+
+  .slide-caption h3 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .feature {
+  font-size: 26px;
+  }
+
+  .navbar {
+    font-size: large;
+  }
+  .slide-img {      
+    background: no-repeat left right scroll;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .slide-caption {
+    padding: 10px 20px;
+
+  }
+  .slide-caption p {
+    font-size: 26px;
+    font-weight: 100;
+  }
+
+  .slide-caption h3 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+
+  .feature {
+  font-size: 24px;
+  }
+
+  .navbar {
+    font-size: large;
+  }
+}
+
+  
+@media only screen and (min-width: 1500px) {
+  .slide-caption {
+    padding: 20px 40px;
+  }
+  .slide-caption p {
+    font-size: 28px;
+    font-weight: 100;
+  }
+
+  .slide-caption h3 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .feature {
+  font-size: 26px;
+  }
+
+  .lead {
+    font-size: 24px !important;
+  }
+}  
+
+
