@@ -281,21 +281,31 @@ class DownloadSection extends Component {
             </Card>
           </Col>
         </Row>
+
         <div className="lead" />
-        <a href="https://discordapp.com/invite/8bvTvZu" target="_blank">
-          <Button size="lg" variant="warning">
-            {" "}
-            <Icon name="discord" />
-            While in beta, please hop into discord to fetch a free license key.
-          </Button>
-        </a>
+        <div className="lead">
+          <Icon name="key" />
+          For non-commercial use, please use this free license key:
+        </div>
+        <span class="code">U7XP9-LHXYD-4JD56-FFAX6-SC11Z</span>
+        <div className="lead" />
+        <div className="lead">
+          <Icon name="money" /> {"   "}For commercial use please{" "}
+          <span
+            style={{ color: "blue", fontWeight: "bolder", cursor: "pointer" }}
+            onClick={() => goToAnchor("about-us")}>
+            Contact Me
+            {/* <a href="#"></a> */}
+          </span>
+        </div>
+
         <div className="lead" />
         <Button
           variant="info"
           size="lg"
           block
           onClick={() => goToAnchor("about-us")}>
-          WAIT!!! Who makes all this stuff?.
+          WAIT! Who makes all this stuff?.
         </Button>
       </Container>
     );
@@ -336,7 +346,7 @@ class AboutSection extends Component {
               rel="noopener noreferrer">
               <Icon circular inverted size="big" color="grey" name="world" />
             </a>
-            <a
+            {/* <a
               href="https://discordapp.com/invite/8bvTvZu"
               target="_blank"
               rel="noopener noreferrer">
@@ -347,7 +357,7 @@ class AboutSection extends Component {
                 size="big"
                 name="discord"
               />
-            </a>
+            </a> */}
 
             <a
               href="https://github.com/ajboni/"
@@ -361,12 +371,12 @@ class AboutSection extends Component {
               rel="noopener noreferrer">
               <Icon circular inverted color="orange" size="big" name="gitlab" />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/rodobodolfo"
               target="_blank"
               rel="noopener noreferrer">
               <Icon circular inverted color="blue" size="big" name="twitter" />
-            </a>
+            </a> */}
             <a
               href="https://www.youtube.com/channel/UCweBjZoA-EJ1i33CXcpghgQ"
               target="_blank"
