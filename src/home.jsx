@@ -287,7 +287,7 @@ class DownloadSection extends Component {
           <Icon name="key" />
           For non-commercial use, please use this free license key:
         </div>
-        <span class="code">U7XP9-LHXYD-4JD56-FFAX6-SC11Z</span>
+        <span class="code">U7XP9-LHXYD-4JD56-FFAX6</span>
         <div className="lead" />
         <div className="lead">
           <Icon name="money" /> {"   "}For commercial use please{" "}
