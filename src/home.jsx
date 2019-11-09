@@ -169,10 +169,10 @@ class DownloadSection extends Component {
     let url = baseurl + latest;
 
     fetch(url)
-      .then(function(response) {
+      .then(function (response) {
         return response.text();
       })
-      .then(function(data) {
+      .then(function (data) {
         try {
           var doc = yaml.safeLoad(data, "utf8");
 
@@ -187,7 +187,7 @@ class DownloadSection extends Component {
           console.log(e);
         }
       })
-      .catch(function(err) {
+      .catch(function (err) {
         console.error(err);
       });
   };
@@ -222,16 +222,16 @@ class DownloadSection extends Component {
                 <ul style={{ textAlign: "left" }}>
                   <li>
                     <b>Version: </b>
-                    {this.state.latest_linux.version}
+                    {this.state.latest_win.version}
                   </li>
                   <li>
                     <b>Filename: </b>
-                    {this.state.latest_linux.path}
+                    {this.state.latest_win.path}
                   </li>
                   <li>
                     <b>Release Date: </b>
                     {new Date(
-                      this.state.latest_linux.releaseDate
+                      this.state.latest_win.releaseDate
                     ).toLocaleDateString()}
                   </li>
                 </ul>
