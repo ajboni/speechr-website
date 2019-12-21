@@ -206,8 +206,9 @@ class DownloadSection extends Component {
         <h1>Download Speechr! (beta)</h1>
         <div className="lead">Start writing your game today.</div>
         {/* <Card style={{ maxWidth: '40%', textAlign: "center", alignItems: "center" }}> */}
-        <Row style={{ width: "100%" }}>
-          <Col>
+        <Row >
+          <iframe src="https://itch.io/embed/538854?linkback=true" width="700" height="167" frameborder="0"><a href="https://aboni.itch.io/speechr">Speechr by aboni</a></iframe>
+          {/* <Col>
             <Card>
               <Card.Header>Windows</Card.Header>
 
@@ -279,7 +280,7 @@ class DownloadSection extends Component {
                 </Button>
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
 
         <div className="lead" />
